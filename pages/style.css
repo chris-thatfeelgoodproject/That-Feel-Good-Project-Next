@@ -1,0 +1,92 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --dl-size-size-large: 144px;
+  --dl-size-size-small: 48px;
+  --dl-color-gray-beige: #edebddff;
+  --dl-color-gray-black: #000000;
+  --dl-size-size-medium: 96px;
+  --dl-size-size-xlarge: 192px;
+  --dl-size-size-xsmall: 16px;
+  --dl-space-space-unit: 16px;
+  --dl-size-size-xxlarge: 288px;
+  --dl-color-scheme-black: #000000ff;
+  --dl-size-size-maxwidth: 1400px;
+  --dl-radius-radius-round: 50%;
+  --dl-size-size-maxwidth1: 1400px;
+  --dl-space-space-halfunit: 8px;
+  --dl-space-space-sixunits: 96px;
+  --dl-space-space-twounits: 32px;
+  --dl-radius-radius-radius2: 2px;
+  --dl-radius-radius-radius4: 4px;
+  --dl-radius-radius-radius8: 8px;
+  --dl-space-space-fiveunits: 80px;
+  --dl-space-space-fourunits: 64px;
+  --dl-radius-radius-radius25: 2px;
+  --dl-space-space-threeunits: 48px;
+  --dl-color-act60directory-c10: #181818ff;
+  --dl-color-act60directory-c20: #31c9eaff;
+  --dl-color-act60directory-c30: #FFFFFF;
+  --dl-color-act60directory-c60: #fff1eaff;
+  --dl-color-act60directory-brand: #ea585aff;
+  --dl-space-space-oneandhalfunits: 24px;
+}
+.button {
+  color: var(--dl-color-act60directory-c10);
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  border-color: var(--dl-color-act60directory-c10);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-act60directory-c30);
+}
+.input {
+  color: var(--dl-color-act60directory-c10);
+  cursor: auto;
+  padding: 0.5rem 1rem;
+  border-color: var(--dl-color-act60directory-c10);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-act60directory-c30);
+}
+.textarea {
+  color: var(--dl-color-act60directory-c10);
+  cursor: auto;
+  padding: 0.5rem;
+  border-color: var(--dl-color-act60directory-c10);
+  border-width: 1px;
+  border-radius: 4px;
+  background-color: var(--dl-color-act60directory-c30);
+}
+.list {
+  width: 100%;
+  margin: 1em 0px 1em 0px;
+  display: block;
+  padding: 0px 0px 0px 1.5rem;
+  list-style-type: none;
+  list-style-position: outside;
+}
+.list-item {
+  display: list-item;
+}
+.teleport-show {
+  display: flex !important;
+  transform: none !important;
+}
+.Headings {
+  font-size: 14px;
+  font-family: "Poppins";
+  font-weight: 500;
+  text-transform: none;
+  text-decoration: none;
+}
+.Content {
+  font-size: 16px;
+  font-family: "Quicksand";
+  font-weight: 400;
+  line-height: 1.15;
+  text-transform: none;
+  text-decoration: none;
+}
