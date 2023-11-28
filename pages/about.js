@@ -137,15 +137,7 @@ const About = (props) => {
               <br></br>
               <br></br>
               <span>
-                My mission is to provide our clients with an amazing rental
-                property in Puerto Rico, where they can enjoy the island&apos;s
-                beauty and culture, while saving a significant amount of money
-                on their taxes. I am passionate about creating value for our
-                clients, our team, and our community, by leveraging my skills in
-                process improvement, financial accounting, financial reporting,
-                and tax optimization. I am also the founder of That Feel Good
-                Project, a social enterprise that supports local causes and
-                initiatives in Puerto Rico.
+                I'm committed to supplying our clients with exceptional Puerto Rico rentals, letting them bask in the island's beauty and culture while reaping substantial tax benefits.
               </span>
             </span>
           </div>
