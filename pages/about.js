@@ -110,9 +110,6 @@ const About = (props) => {
             className="about-image1"
           />
         </div>
-        <div className="about-banner1">
-          <h1 className="about-text18">Meet Our Team</h1>
-        </div>
         <div className="about-hero2">
           <img
             alt="image"
@@ -141,36 +138,6 @@ const About = (props) => {
               </span>
             </span>
           </div>
-        </div>
-        <div className="about-hero3">
-          <div className="about-container4">
-            <h1 className="about-text25">Chris Pettyjohn, Co-Founder | CTO</h1>
-            <span className="about-text26">
-              <span>
-                As the Co-founder and CTO of our company, I bring over a decade
-                of technical expertise and leadership in driving technological
-                innovation and infrastructure. My extensive background spans
-                designing robust systems that streamline the relocation process
-                for our clients leveraging Act 60 in Puerto Rico.
-              </span>
-              <br></br>
-              <br></br>
-              <span>
-                My focus is on revolutionizing our technological infrastructure
-                to provide seamless solutions for our clients, ensuring an
-                effortless transition while optimizing tax benefits. I&apos;m
-                driven by a passion for leveraging cutting-edge technology to
-                enhance our clients&apos; experiences, delivering innovative
-                tools that facilitate their journey to Puerto Rico.
-              </span>
-              <br></br>
-            </span>
-          </div>
-          <img
-            alt="image"
-            src="https://i.imgur.com/Uc4tAq5.png"
-            className="about-image3"
-          />
         </div>
         <Footer rootClassName="footer-root-class-name"></Footer>
       </div>
